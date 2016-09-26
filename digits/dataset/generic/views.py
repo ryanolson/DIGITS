@@ -10,6 +10,7 @@ except ImportError:
 import caffe_pb2
 import flask
 import matplotlib as mpl
+mpl.use('Agg')
 import matplotlib.pyplot as plt
 import numpy as np
 import PIL.Image
